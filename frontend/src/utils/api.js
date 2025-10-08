@@ -2,7 +2,7 @@ import axios from 'axios'
 
 const api = axios.create({
   baseURL: 'https://mern-ecommerce-website-1-i91u.onrender.com/api',
-  timeout: 10000,
+  timeout: 100000,
 })
 
 // Add token to requests
