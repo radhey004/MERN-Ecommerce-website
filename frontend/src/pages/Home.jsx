@@ -64,7 +64,7 @@ const Home = () => {
 
   const fetchFeaturedProducts = async () => {
     try {
-      const response = await api.get('/products/featured/list')
+      const response = await api.get('/products/featured')
       setFeaturedProducts(response.data)
     } catch (error) {
       console.error('Error fetching featured products:', error)
